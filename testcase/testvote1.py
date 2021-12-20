@@ -23,7 +23,7 @@ def post_vote(): #这个是测试投票接口的测试用例
             r=TestPostRequest(testurl+'/poll/1/vote/',hdata,header,testcaseid,testname,testhope,fanhuitesthpe)
     except Exception as e: #这里使用的异常的处理方式，如果有异常然后按照下面的逻辑处理
            print(e)
-post_vote()
+#post_vote()
 
 def get_polls(): #这个测试查询所有问题接口用例
     try:
