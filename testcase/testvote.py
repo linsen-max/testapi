@@ -31,7 +31,7 @@ def post_vote():
             r=TestPostRequest(testurl+'/poll/1/vote/',hdata,header,testcaseid,testname,testhope,fanhuitesthpe)
     except Exception as e:
         print(e)
-# post_vote()
+#post_vote()
 
 def get_polls():
     try:
@@ -51,4 +51,4 @@ def get_polls():
     except Exception as e:
         print(e)
 
-# get_polls()
+get_polls()
