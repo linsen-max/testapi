@@ -1,72 +1,12 @@
-Mon,20 Dec 2021 16:43:50 log.py[line:23] DEBUG debug
-Mon,20 Dec 2021 16:43:50 log.py[line:24] INFO info
-Mon,20 Dec 2021 16:43:50 log.py[line:25] WARNING warning
-Mon,20 Dec 2021 16:43:50 log.py[line:26] ERROR error
-Mon,20 Dec 2021 16:43:50 log.py[line:27] CRITICAL critical
-Mon,20 Dec 2021 16:43:50 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
-Mon,20 Dec 2021 16:43:51 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://static.www.t.ifboss.com/api/cmi-api/v1/htmljssetting/en_name?en_name=web-website-nav HTTP/1.1" 200 None
-Mon,20 Dec 2021 16:50:02 log.py[line:23] DEBUG debug
-Mon,20 Dec 2021 16:50:02 log.py[line:24] INFO info
-Mon,20 Dec 2021 16:50:02 log.py[line:25] WARNING warning
-Mon,20 Dec 2021 16:50:02 log.py[line:26] ERROR error
-Mon,20 Dec 2021 16:50:02 log.py[line:27] CRITICAL critical
-Mon,20 Dec 2021 16:50:02 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
-Mon,20 Dec 2021 16:50:03 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://static.www.t.ifboss.com/api/cmi-api/v1/htmljssetting/en_name?en_name=web-website-nav HTTP/1.1" 200 None
-Mon,20 Dec 2021 16:50:03 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
-Mon,20 Dec 2021 16:50:03 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://static.www.t.ifboss.com/api/cmi-api/v1/htmljssetting/en_name?en_name=web-website-nav HTTP/1.1" 200 None
-Mon,20 Dec 2021 16:56:35 log.py[line:23] DEBUG debug
-Mon,20 Dec 2021 16:56:35 log.py[line:24] INFO info
-Mon,20 Dec 2021 16:56:35 log.py[line:25] WARNING warning
-Mon,20 Dec 2021 16:56:35 log.py[line:26] ERROR error
-Mon,20 Dec 2021 16:56:35 log.py[line:27] CRITICAL critical
-Mon,20 Dec 2021 16:56:35 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
-Mon,20 Dec 2021 16:56:35 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://static.www.t.ifboss.com/api/cmi-api/v1/htmljssetting/en_name?en_name=web-website-nav HTTP/1.1" 200 None
-Mon,20 Dec 2021 17:15:12 log.py[line:23] DEBUG debug
-Mon,20 Dec 2021 17:15:12 log.py[line:24] INFO info
-Mon,20 Dec 2021 17:15:12 log.py[line:25] WARNING warning
-Mon,20 Dec 2021 17:15:12 log.py[line:26] ERROR error
-Mon,20 Dec 2021 17:15:12 log.py[line:27] CRITICAL critical
-Mon,20 Dec 2021 17:15:12 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
-Mon,20 Dec 2021 17:15:12 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://static.www.t.ifboss.com/api/cmi-api/v1/htmljssetting/en_name?en_name=web-website-nav HTTP/1.1" 200 None
-Mon,20 Dec 2021 17:15:56 log.py[line:23] DEBUG debug
-Mon,20 Dec 2021 17:15:56 log.py[line:24] INFO info
-Mon,20 Dec 2021 17:15:56 log.py[line:25] WARNING warning
-Mon,20 Dec 2021 17:15:56 log.py[line:26] ERROR error
-Mon,20 Dec 2021 17:15:56 log.py[line:27] CRITICAL critical
-Mon,20 Dec 2021 17:27:31 log.py[line:23] DEBUG debug
-Mon,20 Dec 2021 17:27:31 log.py[line:24] INFO info
-Mon,20 Dec 2021 17:27:31 log.py[line:25] WARNING warning
-Mon,20 Dec 2021 17:27:31 log.py[line:26] ERROR error
-Mon,20 Dec 2021 17:27:31 log.py[line:27] CRITICAL critical
-Mon,20 Dec 2021 17:27:31 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
-Mon,20 Dec 2021 17:27:31 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://static.www.t.ifboss.com/api/cmi-api/v1/htmljssetting/en_name?en_name=web-website-nav HTTP/1.1" 200 None
-Mon,20 Dec 2021 17:27:45 log.py[line:23] DEBUG debug
-Mon,20 Dec 2021 17:27:45 log.py[line:24] INFO info
-Mon,20 Dec 2021 17:27:45 log.py[line:25] WARNING warning
-Mon,20 Dec 2021 17:27:45 log.py[line:26] ERROR error
-Mon,20 Dec 2021 17:27:45 log.py[line:27] CRITICAL critical
-Mon,20 Dec 2021 17:27:45 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
-Mon,20 Dec 2021 17:27:46 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://static.www.t.ifboss.com/api/cmi-api/v1/htmljssetting/en_name?en_name=web-website-nav HTTP/1.1" 200 None
-Mon,20 Dec 2021 17:27:46 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
-Mon,20 Dec 2021 17:27:46 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://static.www.t.ifboss.com/api/cmi-api/v1/htmljssetting/en_name?en_name=web-website-nav HTTP/1.1" 200 None
-Mon,20 Dec 2021 17:27:55 log.py[line:23] DEBUG debug
-Mon,20 Dec 2021 17:27:55 log.py[line:24] INFO info
-Mon,20 Dec 2021 17:27:55 log.py[line:25] WARNING warning
-Mon,20 Dec 2021 17:27:55 log.py[line:26] ERROR error
-Mon,20 Dec 2021 17:27:55 log.py[line:27] CRITICAL critical
-Mon,20 Dec 2021 17:27:55 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
-Mon,20 Dec 2021 17:27:55 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://static.www.t.ifboss.com/api/cmi-api/v1/htmljssetting/en_name?en_name=web-website-nav HTTP/1.1" 200 None
-Mon,20 Dec 2021 17:28:02 log.py[line:23] DEBUG debug
-Mon,20 Dec 2021 17:28:02 log.py[line:24] INFO info
-Mon,20 Dec 2021 17:28:02 log.py[line:25] WARNING warning
-Mon,20 Dec 2021 17:28:02 log.py[line:26] ERROR error
-Mon,20 Dec 2021 17:28:02 log.py[line:27] CRITICAL critical
-Mon,20 Dec 2021 17:28:02 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
-Mon,20 Dec 2021 17:28:02 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://static.www.t.ifboss.com/api/cmi-api/v1/htmljssetting/en_name?en_name=web-website-nav HTTP/1.1" 200 None
-Mon,20 Dec 2021 17:28:31 log.py[line:23] DEBUG debug
-Mon,20 Dec 2021 17:28:31 log.py[line:24] INFO info
-Mon,20 Dec 2021 17:28:31 log.py[line:25] WARNING warning
-Mon,20 Dec 2021 17:28:31 log.py[line:26] ERROR error
-Mon,20 Dec 2021 17:28:31 log.py[line:27] CRITICAL critical
-Mon,20 Dec 2021 17:28:31 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
-Mon,20 Dec 2021 17:28:31 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://static.www.t.ifboss.com/api/cmi-api/v1/htmljssetting/en_name?en_name=web-website-nav HTTP/1.1" 200 None
+Tue,21 Dec 2021 18:38:07 log.py[line:23] DEBUG debug
+Tue,21 Dec 2021 18:38:07 log.py[line:24] INFO info
+Tue,21 Dec 2021 18:38:07 log.py[line:25] WARNING warning
+Tue,21 Dec 2021 18:38:07 log.py[line:26] ERROR error
+Tue,21 Dec 2021 18:38:07 log.py[line:27] CRITICAL critical
+Tue,21 Dec 2021 18:38:14 log.py[line:23] DEBUG debug
+Tue,21 Dec 2021 18:38:14 log.py[line:24] INFO info
+Tue,21 Dec 2021 18:38:14 log.py[line:25] WARNING warning
+Tue,21 Dec 2021 18:38:14 log.py[line:26] ERROR error
+Tue,21 Dec 2021 18:38:14 log.py[line:27] CRITICAL critical
+Tue,21 Dec 2021 18:38:14 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Tue,21 Dec 2021 18:38:14 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /api/cmi-api/v1/htmljssetting/en_name?en_name=web-website-nav HTTP/1.1" 200 None
