@@ -61,8 +61,8 @@ def TestGetRequest(hurl,hdata,headers,htestcassid,htestcasename,htesthope,fanhui
                  "t_method":"GET",
                  "t_url":hurl,
                  "t_param":"测试数据:"+str(hdata),
-                 "t_hope":"status:"+htesthope+"期望结果："+fanhuitesthope,
-                 "t_actual":"status:"+hstatus+"实际返回结果："+str(hresult),
+                 "t_hope":st+":"+htesthope+"期望结果："+fanhuitesthope,
+                 "t_actual":st+":"+hstatus+"实际返回结果："+str(hresult),
                  "t_result":"通过"
         }
         hlist.append(hhhdata)
@@ -75,8 +75,8 @@ def TestGetRequest(hurl,hdata,headers,htestcassid,htestcasename,htesthope,fanhui
                    "t_method": "GET",
                    "t_url": hurl,
                    "t_param": "测试数据:" + str(hdata),
-                   "t_hope": "status:" + htesthope + "期望结果：" + fanhuitesthope,
-                   "t_actual": "status:" + hstatus + "实际返回结果：" + str(hresult),
+                   "t_hope": st+":" + htesthope + "期望结果：" + fanhuitesthope,
+                   "t_actual": st+":" + hstatus + "实际返回结果：" + str(hresult),
                    "t_result": "失败"
                    }
         hlist.append(hhhdata)
