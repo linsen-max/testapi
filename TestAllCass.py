@@ -10,9 +10,12 @@ def demo1():
 def demo2():
     get_polls()
 
-def demo3():
+def Home():
     get_htmlsetting()
+    get_timelines()
+    get_hot_search()
+    get_breaking_news()
 
 #demo1()
 #demo2()
-#demo3()
+Home()

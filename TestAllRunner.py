@@ -5,9 +5,9 @@ from TestAllCass import *
 
 def threads():
     threads=[]
-    threads.append(threading.Thread(target=demo1))
-    threads.append(threading.Thread(target=demo2))
-    threads.append(threading.Thread(target=demo3))
+    #threads.append(threading.Thread(target=demo1))
+    #threads.append(threading.Thread(target=demo2))
+    threads.append(threading.Thread(target=Home))
     for th in threads:
         th.start()
     for th in threads:
