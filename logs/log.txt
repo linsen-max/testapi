@@ -18,3 +18,158 @@ Thu,23 Dec 2021 18:23:41 connectionpool.py[line:452] DEBUG http://static.www.t.i
 Thu,23 Dec 2021 18:23:41 TestRequest.py[line:83] ERROR testhome2-5
 Thu,23 Dec 2021 18:23:41 TestRequest.py[line:84] ERROR 失败
 Thu,23 Dec 2021 18:23:41 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The limit field is required.'}
+Fri,24 Dec 2021 15:24:36 log.py[line:23] DEBUG debug
+Fri,24 Dec 2021 15:24:36 log.py[line:24] INFO info
+Fri,24 Dec 2021 15:24:36 log.py[line:25] WARNING warning
+Fri,24 Dec 2021 15:24:36 log.py[line:26] ERROR error
+Fri,24 Dec 2021 15:24:36 log.py[line:27] CRITICAL critical
+Fri,24 Dec 2021 15:24:45 log.py[line:23] DEBUG debug
+Fri,24 Dec 2021 15:24:45 log.py[line:24] INFO info
+Fri,24 Dec 2021 15:24:45 log.py[line:25] WARNING warning
+Fri,24 Dec 2021 15:24:45 log.py[line:26] ERROR error
+Fri,24 Dec 2021 15:24:45 log.py[line:27] CRITICAL critical
+Fri,24 Dec 2021 15:24:45 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 15:24:50 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=5.0&flag=up&information_id=0.0&catelogue_key= HTTP/1.1" 422 None
+Fri,24 Dec 2021 15:24:50 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 15:24:50 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 15:24:50 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 15:24:50 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 15:24:50 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=&flag=down&information_id=0.0&catelogue_key= HTTP/1.1" 422 None
+Fri,24 Dec 2021 15:24:50 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 15:24:50 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 15:24:50 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 15:24:50 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 15:24:50 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=5.0&flag=down&information_id=0.0&catelogue_key= HTTP/1.1" 422 None
+Fri,24 Dec 2021 15:24:50 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 15:24:50 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 15:24:50 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 15:25:18 log.py[line:23] DEBUG debug
+Fri,24 Dec 2021 15:25:18 log.py[line:24] INFO info
+Fri,24 Dec 2021 15:25:18 log.py[line:25] WARNING warning
+Fri,24 Dec 2021 15:25:18 log.py[line:26] ERROR error
+Fri,24 Dec 2021 15:25:18 log.py[line:27] CRITICAL critical
+Fri,24 Dec 2021 15:25:18 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 15:25:19 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=5.0&flag=up&information_id=0.0&catelogue_key=industry HTTP/1.1" 422 None
+Fri,24 Dec 2021 15:25:19 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 15:25:19 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 15:25:19 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 15:25:19 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 15:25:19 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=&flag=down&information_id=0.0&catelogue_key=industry HTTP/1.1" 422 None
+Fri,24 Dec 2021 15:25:19 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 15:25:19 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 15:25:19 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 15:25:19 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 15:25:19 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=5.0&flag=down&information_id=0.0&catelogue_key= HTTP/1.1" 422 None
+Fri,24 Dec 2021 15:25:19 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 15:25:19 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 15:25:19 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 15:51:04 log.py[line:23] DEBUG debug
+Fri,24 Dec 2021 15:51:04 log.py[line:24] INFO info
+Fri,24 Dec 2021 15:51:04 log.py[line:25] WARNING warning
+Fri,24 Dec 2021 15:51:04 log.py[line:26] ERROR error
+Fri,24 Dec 2021 15:51:04 log.py[line:27] CRITICAL critical
+Fri,24 Dec 2021 15:51:04 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 15:51:04 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=5.0&flag=up&information_id=0.0&catelogue_key=industry HTTP/1.1" 422 None
+Fri,24 Dec 2021 15:51:04 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 15:51:04 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 15:51:04 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 15:51:04 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 15:51:04 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=&flag=down&information_id=0.0&catelogue_key=industry HTTP/1.1" 422 None
+Fri,24 Dec 2021 15:51:04 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 15:51:04 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 15:51:04 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 15:51:04 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 15:51:04 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=5.0&flag=down&information_id=0.0&catelogue_key= HTTP/1.1" 422 None
+Fri,24 Dec 2021 15:51:04 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 15:51:04 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 15:51:04 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 15:53:56 log.py[line:23] DEBUG debug
+Fri,24 Dec 2021 15:53:56 log.py[line:24] INFO info
+Fri,24 Dec 2021 15:53:56 log.py[line:25] WARNING warning
+Fri,24 Dec 2021 15:53:56 log.py[line:26] ERROR error
+Fri,24 Dec 2021 15:53:56 log.py[line:27] CRITICAL critical
+Fri,24 Dec 2021 15:53:56 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 15:53:57 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=5.0&flag=up&information_id=0.0&catelogue_key=industry HTTP/1.1" 422 None
+Fri,24 Dec 2021 15:53:57 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 15:53:57 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 15:53:57 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 15:53:57 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 15:53:57 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=&flag=down&information_id=0.0&catelogue_key=industry HTTP/1.1" 422 None
+Fri,24 Dec 2021 15:53:57 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 15:53:57 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 15:53:57 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 15:53:57 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 15:53:57 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=5.0&flag=down&information_id=0.0&catelogue_key= HTTP/1.1" 422 None
+Fri,24 Dec 2021 15:53:57 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 15:53:57 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 15:53:57 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 15:58:57 log.py[line:23] DEBUG debug
+Fri,24 Dec 2021 15:58:57 log.py[line:24] INFO info
+Fri,24 Dec 2021 15:58:57 log.py[line:25] WARNING warning
+Fri,24 Dec 2021 15:58:57 log.py[line:26] ERROR error
+Fri,24 Dec 2021 15:58:57 log.py[line:27] CRITICAL critical
+Fri,24 Dec 2021 15:58:57 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 15:58:57 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=5.0&flag=up&information_id=0.0&catelogue_key=industry HTTP/1.1" 422 None
+Fri,24 Dec 2021 15:58:57 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 15:58:57 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 15:58:57 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 15:58:57 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 15:58:57 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=&flag=down&information_id=0.0&catelogue_key=industry HTTP/1.1" 422 None
+Fri,24 Dec 2021 15:58:57 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 15:58:57 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 15:58:57 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 15:58:57 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 15:58:57 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=5.0&flag=down&information_id=0.0&catelogue_key= HTTP/1.1" 422 None
+Fri,24 Dec 2021 15:58:57 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 15:58:57 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 15:58:57 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 16:03:24 log.py[line:23] DEBUG debug
+Fri,24 Dec 2021 16:03:24 log.py[line:24] INFO info
+Fri,24 Dec 2021 16:03:24 log.py[line:25] WARNING warning
+Fri,24 Dec 2021 16:03:24 log.py[line:26] ERROR error
+Fri,24 Dec 2021 16:03:24 log.py[line:27] CRITICAL critical
+Fri,24 Dec 2021 16:03:24 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 16:03:24 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=5.0&flag=up&information_id=0.0&catelogue_key=industry HTTP/1.1" 422 None
+Fri,24 Dec 2021 16:03:24 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 16:03:24 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 16:03:24 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 16:03:24 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 16:03:24 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=&flag=down&information_id=0.0&catelogue_key=industry HTTP/1.1" 422 None
+Fri,24 Dec 2021 16:03:24 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 16:03:24 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 16:03:24 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 16:03:24 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 16:03:24 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=5.0&flag=down&information_id=0.0&catelogue_key= HTTP/1.1" 422 None
+Fri,24 Dec 2021 16:03:24 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 16:03:24 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 16:03:24 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 16:50:59 log.py[line:23] DEBUG debug
+Fri,24 Dec 2021 16:50:59 log.py[line:24] INFO info
+Fri,24 Dec 2021 16:50:59 log.py[line:25] WARNING warning
+Fri,24 Dec 2021 16:50:59 log.py[line:26] ERROR error
+Fri,24 Dec 2021 16:50:59 log.py[line:27] CRITICAL critical
+Fri,24 Dec 2021 16:51:56 log.py[line:23] DEBUG debug
+Fri,24 Dec 2021 16:51:56 log.py[line:24] INFO info
+Fri,24 Dec 2021 16:51:56 log.py[line:25] WARNING warning
+Fri,24 Dec 2021 16:51:56 log.py[line:26] ERROR error
+Fri,24 Dec 2021 16:51:56 log.py[line:27] CRITICAL critical
+Fri,24 Dec 2021 16:52:04 log.py[line:23] DEBUG debug
+Fri,24 Dec 2021 16:52:04 log.py[line:24] INFO info
+Fri,24 Dec 2021 16:52:04 log.py[line:25] WARNING warning
+Fri,24 Dec 2021 16:52:04 log.py[line:26] ERROR error
+Fri,24 Dec 2021 16:52:04 log.py[line:27] CRITICAL critical
+Fri,24 Dec 2021 16:52:04 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 16:52:05 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=5.0&flag=up&information_id=0.0&catelogue_key=industry HTTP/1.1" 422 None
+Fri,24 Dec 2021 16:52:05 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 16:52:05 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 16:52:05 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 16:52:05 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 16:52:05 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=&flag=down&information_id=0.0&catelogue_key=industry HTTP/1.1" 422 None
+Fri,24 Dec 2021 16:52:05 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 16:52:05 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 16:52:05 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Fri,24 Dec 2021 16:52:05 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,24 Dec 2021 16:52:05 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "GET /newapi/noah/v1/timelines/other?limit=5.0&flag=down&information_id=0.0&catelogue_key= HTTP/1.1" 422 None
+Fri,24 Dec 2021 16:52:05 TestRequest.py[line:83] ERROR testhome2-5
+Fri,24 Dec 2021 16:52:05 TestRequest.py[line:84] ERROR 失败
+Fri,24 Dec 2021 16:52:05 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
