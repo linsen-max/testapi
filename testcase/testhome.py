@@ -5,13 +5,15 @@ from TestRequest import TestPostRequest
 from TestRequest import TestGetRequest
 from testdata.getpath import GetTestDataPath
 import pytest
+import requests
 
 testdata=xlrd.open_workbook(GetTestDataPath())
 testurl='http://static.www.t.ifboss.com'
 testapi='http://api.t.ifboss.com'
 
-urlHost=re.search('(?<=//)\S+$', testurl, flags=0)
-apiHost=re.search('(?<=//)\S+$', testapi, flags=0)
+rule = '(?<=//)\S+$'
+urlHost=re.search(rule, testurl, flags=0)
+apiHost=re.search(rule, testapi, flags=0)
 
 
 #Web一级导航栏设置
@@ -174,5 +176,14 @@ def get_homeindustry():
     except Exception as e:
         print(e)
 
-get_homeindustry()
+#get_homeindustry()
+lis = [{'mobile': "13111111111", 'captcha': "123456", 'area_code': 86}]
+@pytest.mark.parametrize('params',lis,indirect=True)
+def post_login(self,params):
+    r=requests.post(testurl+'/api/ajax/user/login/captcha',data=params)
+    print(r)
 
+
+
+
+post_login()

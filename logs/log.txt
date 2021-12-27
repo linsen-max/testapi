@@ -173,3 +173,23 @@ Fri,24 Dec 2021 16:52:05 connectionpool.py[line:452] DEBUG http://static.www.t.i
 Fri,24 Dec 2021 16:52:05 TestRequest.py[line:83] ERROR testhome2-5
 Fri,24 Dec 2021 16:52:05 TestRequest.py[line:84] ERROR 失败
 Fri,24 Dec 2021 16:52:05 TestRequest.py[line:85] ERROR 实际返回结果：{'status_code': 422, 'message': 'The information id field must contain an integer.'}
+Mon,27 Dec 2021 16:33:24 log.py[line:23] DEBUG debug
+Mon,27 Dec 2021 16:33:24 log.py[line:24] INFO info
+Mon,27 Dec 2021 16:33:24 log.py[line:25] WARNING warning
+Mon,27 Dec 2021 16:33:24 log.py[line:26] ERROR error
+Mon,27 Dec 2021 16:33:24 log.py[line:27] CRITICAL critical
+Mon,27 Dec 2021 16:40:01 log.py[line:23] DEBUG debug
+Mon,27 Dec 2021 16:40:01 log.py[line:24] INFO info
+Mon,27 Dec 2021 16:40:01 log.py[line:25] WARNING warning
+Mon,27 Dec 2021 16:40:01 log.py[line:26] ERROR error
+Mon,27 Dec 2021 16:40:01 log.py[line:27] CRITICAL critical
+Mon,27 Dec 2021 16:47:04 log.py[line:23] DEBUG debug
+Mon,27 Dec 2021 16:47:04 log.py[line:24] INFO info
+Mon,27 Dec 2021 16:47:04 log.py[line:25] WARNING warning
+Mon,27 Dec 2021 16:47:04 log.py[line:26] ERROR error
+Mon,27 Dec 2021 16:47:04 log.py[line:27] CRITICAL critical
+Mon,27 Dec 2021 16:47:12 log.py[line:23] DEBUG debug
+Mon,27 Dec 2021 16:47:12 log.py[line:24] INFO info
+Mon,27 Dec 2021 16:47:12 log.py[line:25] WARNING warning
+Mon,27 Dec 2021 16:47:12 log.py[line:26] ERROR error
+Mon,27 Dec 2021 16:47:12 log.py[line:27] CRITICAL critical
