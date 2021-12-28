@@ -1,3 +1,5 @@
+import json
+
 import xlrd
 import re
 import yaml
@@ -177,13 +179,16 @@ def get_homeindustry():
         print(e)
 
 #get_homeindustry()
-lis = [{'mobile': "13111111111", 'captcha': "123456", 'area_code': 86}]
-@pytest.mark.parametrize('params',lis,indirect=True)
-def post_login(self,params):
-    r=requests.post(testurl+'/api/ajax/user/login/captcha',data=params)
-    print(r)
 
+@pytest.mark.parametrize('mobile', [13111111111, 15111111111, 18111111111, 0x2dfdc1c35, None])
+@pytest.mark.parametrize ('captcha',[123456.12345,'123456',None])
+@pytest.mark.parametrize('area_code',[86,1,1472,None])
+def test_post_login(mobile,captcha,area_code):
+    payload={'mobile':mobile,'captcha':captcha,'area_code':area_code}
+    r=requests.post(testurl+'/api/ajax/user/login/captcha',json=payload)
+    a=json.dumps(r.text)
+    print(a)
 
-
-
-post_login()
+if __name__ == '__main__':
+    # pytest.main('-v', '-s')
+    test_post_login()
