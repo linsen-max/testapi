@@ -1,5 +1,5 @@
 import json
-
+import jsonpath
 import xlrd
 import re
 import yaml
@@ -16,7 +16,6 @@ testapi='http://api.t.ifboss.com'
 rule = '(?<=//)\S+$'
 urlHost=re.search(rule, testurl, flags=0)
 apiHost=re.search(rule, testapi, flags=0)
-
 
 #Web一级导航栏设置
 def get_htmlsetting():
@@ -180,15 +179,18 @@ def get_homeindustry():
 
 #get_homeindustry()
 
-@pytest.mark.parametrize('mobile', [13111111111, 15111111111, 18111111111, 0x2dfdc1c35, None])
-@pytest.mark.parametrize ('captcha',[123456.12345,'123456',None])
+
+
+
+@pytest.mark.parametrize('mobile', ['13111111111', 15111111111, 18111111111, 0x2dfdc1c35, None])
+@pytest.mark.parametrize ('captcha',['123456',12345,'1234567',None])
 @pytest.mark.parametrize('area_code',[86,1,1472,None])
 def test_post_login(mobile,captcha,area_code):
     payload={'mobile':mobile,'captcha':captcha,'area_code':area_code}
     r=requests.post(testurl+'/api/ajax/user/login/captcha',json=payload)
-    a=json.dumps(r.text)
-    print(a)
+    # r.encoding='utf-8'
+    a=json.loads(r.text)
+    assert jsonpath.jsonpath(a,'$..message') == ['登录成功']
 
 if __name__ == '__main__':
-    # pytest.main('-v', '-s')
     test_post_login()
