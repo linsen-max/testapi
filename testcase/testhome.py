@@ -191,13 +191,14 @@ def test_post_login(mobile,captcha,area_code):
     # r.encoding='utf-8'
     req=json.loads(r.text)
     token= jsonpath.jsonpath(req,'$..token')
+    assert r.status_code == 200
     assert jsonpath.jsonpath(req,'$..message') == ['登录成功']
 
 
 
 
 if __name__ == '__main__':
-    test_post_login()
+    test_post_login
 
 
 
