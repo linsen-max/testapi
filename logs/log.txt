@@ -438,3 +438,631 @@ Wed,29 Dec 2021 19:16:30 log.py[line:24] INFO info
 Wed,29 Dec 2021 19:16:30 log.py[line:25] WARNING warning
 Wed,29 Dec 2021 19:16:30 log.py[line:26] ERROR error
 Wed,29 Dec 2021 19:16:30 log.py[line:27] CRITICAL critical
+Thu,30 Dec 2021 10:48:23 log.py[line:23] DEBUG debug
+Thu,30 Dec 2021 10:48:23 log.py[line:24] INFO info
+Thu,30 Dec 2021 10:48:23 log.py[line:25] WARNING warning
+Thu,30 Dec 2021 10:48:23 log.py[line:26] ERROR error
+Thu,30 Dec 2021 10:48:23 log.py[line:27] CRITICAL critical
+Thu,30 Dec 2021 18:01:40 log.py[line:23] DEBUG debug
+Thu,30 Dec 2021 18:01:40 log.py[line:24] INFO info
+Thu,30 Dec 2021 18:01:40 log.py[line:25] WARNING warning
+Thu,30 Dec 2021 18:01:40 log.py[line:26] ERROR error
+Thu,30 Dec 2021 18:01:40 log.py[line:27] CRITICAL critical
+Thu,30 Dec 2021 18:02:25 log.py[line:23] DEBUG debug
+Thu,30 Dec 2021 18:02:25 log.py[line:24] INFO info
+Thu,30 Dec 2021 18:02:25 log.py[line:25] WARNING warning
+Thu,30 Dec 2021 18:02:25 log.py[line:26] ERROR error
+Thu,30 Dec 2021 18:02:25 log.py[line:27] CRITICAL critical
+Thu,30 Dec 2021 18:02:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.address`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `en_US`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.automotive`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:106] DEBUG Provider `faker.providers.automotive` has been localized to `en_US`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.bank`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:101] DEBUG Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+Thu,30 Dec 2021 18:02:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.barcode`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:106] DEBUG Provider `faker.providers.barcode` has been localized to `en_US`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.color`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:106] DEBUG Provider `faker.providers.color` has been localized to `en_US`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.company`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `en_US`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.credit_card`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:106] DEBUG Provider `faker.providers.credit_card` has been localized to `en_US`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.currency`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:106] DEBUG Provider `faker.providers.currency` has been localized to `en_US`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.date_time`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:106] DEBUG Provider `faker.providers.date_time` has been localized to `en_US`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:02:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.geo`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:106] DEBUG Provider `faker.providers.geo` has been localized to `en_US`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.internet`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `en_US`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:02:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.job`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `en_US`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.lorem`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `en_US`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.misc`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:106] DEBUG Provider `faker.providers.misc` has been localized to `en_US`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.person`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `en_US`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.phone_number`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `en_US`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:02:25 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:02:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.ssn`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `en_US`.
+Thu,30 Dec 2021 18:02:25 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:02:25 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:02:26 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:02:26 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:02:26 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:02:26 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:02:26 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:02:26 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:02:26 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:02:26 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:02:27 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:02:27 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:02:27 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:02:27 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:02:27 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:02:27 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:04:25 log.py[line:23] DEBUG debug
+Thu,30 Dec 2021 18:04:25 log.py[line:24] INFO info
+Thu,30 Dec 2021 18:04:25 log.py[line:25] WARNING warning
+Thu,30 Dec 2021 18:04:25 log.py[line:26] ERROR error
+Thu,30 Dec 2021 18:04:25 log.py[line:27] CRITICAL critical
+Thu,30 Dec 2021 18:04:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.address`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `en_US`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.automotive`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:106] DEBUG Provider `faker.providers.automotive` has been localized to `en_US`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.bank`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:101] DEBUG Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+Thu,30 Dec 2021 18:04:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.barcode`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:106] DEBUG Provider `faker.providers.barcode` has been localized to `en_US`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.color`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:106] DEBUG Provider `faker.providers.color` has been localized to `en_US`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.company`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `en_US`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.credit_card`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:106] DEBUG Provider `faker.providers.credit_card` has been localized to `en_US`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.currency`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:106] DEBUG Provider `faker.providers.currency` has been localized to `en_US`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.date_time`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:106] DEBUG Provider `faker.providers.date_time` has been localized to `en_US`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:04:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.geo`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:106] DEBUG Provider `faker.providers.geo` has been localized to `en_US`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.internet`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `en_US`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:04:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.job`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `en_US`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.lorem`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `en_US`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.misc`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:106] DEBUG Provider `faker.providers.misc` has been localized to `en_US`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.person`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `en_US`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.phone_number`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `en_US`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:04:25 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:04:25 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.ssn`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `en_US`.
+Thu,30 Dec 2021 18:04:25 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:04:25 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:04:26 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:04:26 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:04:26 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:04:26 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:04:26 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:04:26 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:04:26 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:04:26 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:04:27 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:04:27 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:04:27 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:04:27 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:04:28 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:04:28 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:04:28 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:04:28 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:04:28 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:04:28 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:05:28 log.py[line:23] DEBUG debug
+Thu,30 Dec 2021 18:05:28 log.py[line:24] INFO info
+Thu,30 Dec 2021 18:05:28 log.py[line:25] WARNING warning
+Thu,30 Dec 2021 18:05:28 log.py[line:26] ERROR error
+Thu,30 Dec 2021 18:05:28 log.py[line:27] CRITICAL critical
+Thu,30 Dec 2021 18:06:13 log.py[line:23] DEBUG debug
+Thu,30 Dec 2021 18:06:13 log.py[line:24] INFO info
+Thu,30 Dec 2021 18:06:13 log.py[line:25] WARNING warning
+Thu,30 Dec 2021 18:06:13 log.py[line:26] ERROR error
+Thu,30 Dec 2021 18:06:13 log.py[line:27] CRITICAL critical
+Thu,30 Dec 2021 18:06:13 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:06:13 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:02 log.py[line:23] DEBUG debug
+Thu,30 Dec 2021 18:07:02 log.py[line:24] INFO info
+Thu,30 Dec 2021 18:07:02 log.py[line:25] WARNING warning
+Thu,30 Dec 2021 18:07:02 log.py[line:26] ERROR error
+Thu,30 Dec 2021 18:07:02 log.py[line:27] CRITICAL critical
+Thu,30 Dec 2021 18:07:03 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.address`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `en_US`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.automotive`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:106] DEBUG Provider `faker.providers.automotive` has been localized to `en_US`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.bank`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:101] DEBUG Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+Thu,30 Dec 2021 18:07:03 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.barcode`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:106] DEBUG Provider `faker.providers.barcode` has been localized to `en_US`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.color`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:106] DEBUG Provider `faker.providers.color` has been localized to `en_US`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.company`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `en_US`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.credit_card`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:106] DEBUG Provider `faker.providers.credit_card` has been localized to `en_US`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.currency`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:106] DEBUG Provider `faker.providers.currency` has been localized to `en_US`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.date_time`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:106] DEBUG Provider `faker.providers.date_time` has been localized to `en_US`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:07:03 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.geo`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:106] DEBUG Provider `faker.providers.geo` has been localized to `en_US`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.internet`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `en_US`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:07:03 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.job`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `en_US`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.lorem`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `en_US`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.misc`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:106] DEBUG Provider `faker.providers.misc` has been localized to `en_US`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.person`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `en_US`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.phone_number`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `en_US`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:07:03 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:07:03 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.ssn`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `en_US`.
+Thu,30 Dec 2021 18:07:03 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:07:03 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:03 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:03 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:03 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:03 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:03 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:03 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:04 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:04 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:04 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:04 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:04 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:04 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:04 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:04 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:05 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:05 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:05 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:05 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:05 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:05 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:05 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:06 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:06 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:06 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:06 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:06 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:06 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:06 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:06 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:07 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:07 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:07 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:07 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:07 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:07 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:07 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:07 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:07 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:08 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:08 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:08 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:08 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:08 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:08 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:08 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:08 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:09 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:09 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:09 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:09 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:09 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:09 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:09 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:09 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:09 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:10 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:10 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:10 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:10 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:10 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:10 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:10 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:10 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:10 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:11 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:11 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:11 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:11 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:11 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:11 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:11 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:11 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:12 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:12 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:12 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:12 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:12 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:12 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:12 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:12 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:12 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:12 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:13 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:13 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:13 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:13 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:13 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:13 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:13 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:13 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:14 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:14 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:14 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:14 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:14 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:14 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:14 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:14 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:14 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:14 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:15 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:15 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:15 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:15 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:15 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:15 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:15 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:15 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:16 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:16 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:16 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:16 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:16 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:16 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:16 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:16 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:16 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:16 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:17 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:17 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:17 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:17 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:17 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:17 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:17 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:17 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:18 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:18 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:18 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:18 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:18 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:18 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:18 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:18 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:18 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:19 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:19 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:19 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:19 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:19 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:19 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:19 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:19 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:19 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:20 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:20 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:20 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:20 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:20 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:20 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:20 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:20 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:21 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:21 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:21 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:21 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:21 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:21 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:21 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:21 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:21 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:21 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:22 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:22 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:22 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:22 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:22 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:22 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:22 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:22 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:23 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:23 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:23 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:23 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:23 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:23 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:23 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:23 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:23 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:23 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:24 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:24 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:24 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:24 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:24 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:24 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:24 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:24 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:25 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:25 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:25 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:25 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:25 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:25 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:25 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:25 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:25 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:26 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:26 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:26 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:26 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:26 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:26 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:27 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:27 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:27 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:27 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:27 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:27 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:27 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:27 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:27 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:28 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:28 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:28 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:28 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:28 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:28 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:28 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:28 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:29 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:29 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:29 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:29 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:29 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:29 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:29 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:29 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:29 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:29 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:30 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:30 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:30 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:30 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:30 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:30 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:30 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:30 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:31 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:31 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:31 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:31 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:31 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:31 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:31 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:31 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:32 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:32 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:32 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:32 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:32 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:32 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:32 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:32 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:32 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:32 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:33 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:33 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:33 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:33 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:33 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:33 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:33 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:33 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:34 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:34 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:34 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:34 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:34 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:34 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:34 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:34 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:35 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:35 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:35 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:35 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:35 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:35 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:35 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:35 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:35 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:35 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:36 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:36 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:36 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:36 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:36 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:36 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:36 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:36 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:37 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:37 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:37 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:37 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:37 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:37 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:37 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:37 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:38 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:38 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:38 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 500 None
+Thu,30 Dec 2021 18:07:38 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:38 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:38 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:38 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:38 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:38 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:38 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:39 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:07:39 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:07:39 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:07:39 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:07:39 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:08:30 log.py[line:23] DEBUG debug
+Thu,30 Dec 2021 18:08:30 log.py[line:24] INFO info
+Thu,30 Dec 2021 18:08:30 log.py[line:25] WARNING warning
+Thu,30 Dec 2021 18:08:30 log.py[line:26] ERROR error
+Thu,30 Dec 2021 18:08:30 log.py[line:27] CRITICAL critical
+Thu,30 Dec 2021 18:08:30 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.address`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.automotive`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:106] DEBUG Provider `faker.providers.automotive` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.bank`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:101] DEBUG Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+Thu,30 Dec 2021 18:08:30 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.barcode`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:106] DEBUG Provider `faker.providers.barcode` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.color`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:106] DEBUG Provider `faker.providers.color` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.company`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.credit_card`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:106] DEBUG Provider `faker.providers.credit_card` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.currency`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:106] DEBUG Provider `faker.providers.currency` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.date_time`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:106] DEBUG Provider `faker.providers.date_time` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:08:30 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.geo`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:106] DEBUG Provider `faker.providers.geo` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.internet`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:08:30 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.job`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.lorem`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.misc`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:106] DEBUG Provider `faker.providers.misc` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.person`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.phone_number`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:08:30 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:08:30 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.ssn`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:30 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:08:30 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:08:30 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:08:30 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:08:30 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:08:30 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:08:31 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:08:31 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:08:31 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:08:31 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:08:31 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:08:31 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:08:31 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:08:31 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:08:32 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:08:32 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:08:32 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:08:32 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:08:32 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:08:32 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:08:32 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:08:32 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:08:33 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:08:33 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:08:33 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:08:33 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:08:33 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:08:33 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:08:59 log.py[line:23] DEBUG debug
+Thu,30 Dec 2021 18:08:59 log.py[line:24] INFO info
+Thu,30 Dec 2021 18:08:59 log.py[line:25] WARNING warning
+Thu,30 Dec 2021 18:08:59 log.py[line:26] ERROR error
+Thu,30 Dec 2021 18:08:59 log.py[line:27] CRITICAL critical
+Thu,30 Dec 2021 18:08:59 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.address`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.automotive`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:106] DEBUG Provider `faker.providers.automotive` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.bank`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:101] DEBUG Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+Thu,30 Dec 2021 18:08:59 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.barcode`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:106] DEBUG Provider `faker.providers.barcode` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.color`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:106] DEBUG Provider `faker.providers.color` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.company`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.credit_card`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:106] DEBUG Provider `faker.providers.credit_card` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.currency`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:106] DEBUG Provider `faker.providers.currency` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.date_time`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:106] DEBUG Provider `faker.providers.date_time` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:08:59 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.geo`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:106] DEBUG Provider `faker.providers.geo` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.internet`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:08:59 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.job`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.lorem`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.misc`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:106] DEBUG Provider `faker.providers.misc` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.person`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.phone_number`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:08:59 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:08:59 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.ssn`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `en_US`.
+Thu,30 Dec 2021 18:08:59 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Thu,30 Dec 2021 18:08:59 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:09:00 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:09:00 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:09:00 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:09:00 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:09:00 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:09:00 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
+Thu,30 Dec 2021 18:09:00 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "POST http://static.www.t.ifboss.com/api/ajax/user/login/captcha HTTP/1.1" 302 None
+Thu,30 Dec 2021 18:09:00 connectionpool.py[line:272] DEBUG Resetting dropped connection: 127.0.0.1
+Thu,30 Dec 2021 18:09:01 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://www.t.ifboss.com HTTP/1.1" 200 None
+Thu,30 Dec 2021 18:09:01 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890

@@ -101,11 +101,11 @@ mail_tiltle = '【测试报告】接口测试报告'
 #
 # attachments = set(
 #     ['D:\\拉勾教育\\testapi\\testreport\\TestReport.xls'])
-#
-#
 
 
-attachments = set(['/Users/eleme/PycharmProjects/apitest/config/mail.conf'])
+
+
+attachments = set(['/Users/linsen/PycharmProjects/apitest/config/mail.conf'])
 
 
 mymail.send_mail(mail_tiltle, mail_content, attachments)

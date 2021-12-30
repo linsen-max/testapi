@@ -189,8 +189,12 @@ def test_post_login(mobile,captcha,area_code):
     payload={'mobile':mobile,'captcha':captcha,'area_code':area_code}
     r=requests.post(testurl+'/api/ajax/user/login/captcha',json=payload)
     # r.encoding='utf-8'
-    a=json.loads(r.text)
-    assert jsonpath.jsonpath(a,'$..message') == ['登录成功']
+    req=json.loads(r.text)
+    token= jsonpath.jsonpath(req,'$..token')
+    assert jsonpath.jsonpath(req,'$..message') == ['登录成功']
+
+
+
 
 if __name__ == '__main__':
     test_post_login()
