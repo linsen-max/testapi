@@ -1,2 +1,5 @@
-get_htmlsetting
--
+mobile:['13111111111','15111111111']
+
+captcha:['123456']
+
+area_code:[86]

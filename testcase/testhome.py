@@ -6,17 +6,19 @@ import yaml
 from TestRequest import TestPostRequest
 from TestRequest import TestGetRequest
 from testdata.getpath import GetTestDataPath
+from testdata.getpath import GetYamlDataPath
 import pytest
 import requests
-
+testyaml=yaml.load(open(GetYamlDataPath()),Loader=yaml.FullLoader)
 testdata=xlrd.open_workbook(GetTestDataPath())
+print(testyaml)
 testurl='http://static.www.t.ifboss.com'
 testapi='http://api.t.ifboss.com'
 
 rule = '(?<=//)\S+$'
 urlHost=re.search(rule, testurl, flags=0)
 apiHost=re.search(rule, testapi, flags=0)
-
+print(urlHost,apiHost)
 #Web一级导航栏设置
 def get_htmlsetting():
     try:
@@ -195,10 +197,17 @@ def test_post_login(mobile,captcha,area_code):
     assert jsonpath.jsonpath(req,'$..message') == ['登录成功']
 
 
+@pytest.mark.parametrize('mobile',['13111111111','15111111111'])
+@pytest.mark.parametrize('captcha',['123456'])
+@pytest.mark.parametrize('area_code',[86])
+def test_pass_login(mobile,captcha,area_code):
+    payload = {'mobile': mobile, 'captcha': captcha, 'area_code': area_code}
+    r = requests.post(testurl + '/api/ajax/user/login/captcha', json=payload)
+    # r.encoding='utf-8'
 
 
-if __name__ == '__main__':
-    test_post_login
+# if __name__ == '__main__':
+
 
 
 
