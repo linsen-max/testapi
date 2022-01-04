@@ -180,8 +180,11 @@ def get_homeindustry():
         print(e)
 
 #get_homeindustry()
+#近期活动
+def get_activities():
+    pass
 
-
+#  /newapi/v1/hot/activities
 
 
 @pytest.mark.parametrize('mobile', ['13111111111', 15111111111, 18111111111, 0x2dfdc1c35, None])
@@ -206,8 +209,14 @@ def test_pass_login(mobile,captcha,area_code):
     # r.encoding='utf-8'
 
 
-# if __name__ == '__main__':
+#if __name__ == '__main__':
+#    test_pass_login()
 
+mobile={'13111111111', 15111111111, 18111111111, 0x2dfdc1c35, None}
+captcha={'123456',12345,'1234567',None}
+area_code={86,1,1472,None}
+print(yaml.safe_dump_all([mobile, captcha,area_code], allow_unicode=True))
 
-
+with open(testyaml, 'w', encoding='utf-8') as f:
+    yaml.safe_dump_all([mobile, captcha,area_code], stream=f, allow_unicode=True)
 

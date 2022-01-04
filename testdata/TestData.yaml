@@ -3,3 +3,19 @@ mobile:['13111111111','15111111111']
 captcha:['123456']
 
 area_code:[86]
+--- !!set
+'13111111111': null
+18111111111: null
+null: null
+15111111111: null
+12345678901: null
+--- !!set
+'123456': null
+null: null
+'1234567': null
+12345: null
+--- !!set
+1472: null
+1: null
+86: null
+null: null

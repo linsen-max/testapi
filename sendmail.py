@@ -105,7 +105,8 @@ mail_tiltle = '【测试报告】接口测试报告'
 
 
 
-attachments = set(['/Users/linsen/PycharmProjects/apitest/config/mail.conf'])
+#attachments = set(['/Users/linsen/PycharmProjects/apitest/config/mail.conf'])
+attachments = GetTestConfig("mail.conf")
 
 
 mymail.send_mail(mail_tiltle, mail_content, attachments)
