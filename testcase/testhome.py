@@ -9,16 +9,14 @@ from testdata.getpath import GetTestDataPath
 from testdata.getpath import GetYamlDataPath
 import pytest
 import requests
-testyaml=yaml.load(open(GetYamlDataPath()),Loader=yaml.FullLoader)
+#testyaml=yaml.load(open(GetYamlDataPath()),Loader=yaml.FullLoader)
 testdata=xlrd.open_workbook(GetTestDataPath())
-print(testyaml)
 testurl='http://static.www.t.ifboss.com'
 testapi='http://api.t.ifboss.com'
 
 rule = '(?<=//)\S+$'
 urlHost=re.search(rule, testurl, flags=0)
 apiHost=re.search(rule, testapi, flags=0)
-print(urlHost,apiHost)
 #Web一级导航栏设置
 def get_htmlsetting():
     try:
@@ -186,37 +184,36 @@ def get_activities():
 
 #  /newapi/v1/hot/activities
 
-
-@pytest.mark.parametrize('mobile', ['13111111111', 15111111111, 18111111111, 0x2dfdc1c35, None])
-@pytest.mark.parametrize ('captcha',['123456',12345,'1234567',None])
-@pytest.mark.parametrize('area_code',[86,1,1472,None])
-def test_post_login(mobile,captcha,area_code):
-    payload={'mobile':mobile,'captcha':captcha,'area_code':area_code}
-    r=requests.post(testurl+'/api/ajax/user/login/captcha',json=payload)
-    # r.encoding='utf-8'
-    req=json.loads(r.text)
-    token= jsonpath.jsonpath(req,'$..token')
-    assert r.status_code == 200
-    assert jsonpath.jsonpath(req,'$..message') == ['登录成功']
-
-
-@pytest.mark.parametrize('mobile',['13111111111','15111111111'])
-@pytest.mark.parametrize('captcha',['123456'])
-@pytest.mark.parametrize('area_code',[86])
-def test_pass_login(mobile,captcha,area_code):
-    payload = {'mobile': mobile, 'captcha': captcha, 'area_code': area_code}
-    r = requests.post(testurl + '/api/ajax/user/login/captcha', json=payload)
-    # r.encoding='utf-8'
-
-
-#if __name__ == '__main__':
-#    test_pass_login()
-
-mobile={'13111111111', 15111111111, 18111111111, 0x2dfdc1c35, None}
-captcha={'123456',12345,'1234567',None}
-area_code={86,1,1472,None}
-print(yaml.safe_dump_all([mobile, captcha,area_code], allow_unicode=True))
-
-with open(testyaml, 'w', encoding='utf-8') as f:
-    yaml.safe_dump_all([mobile, captcha,area_code], stream=f, allow_unicode=True)
-
+#
+# @pytest.mark.parametrize('mobile', ['13111111111', 15111111111, 18111111111, 0x2dfdc1c35, None])
+# @pytest.mark.parametrize ('captcha',['123456',12345,'1234567',None])
+# @pytest.mark.parametrize('area_code',[86,1,1472,None])
+# def test_post_login(mobile,captcha,area_code):
+#     payload={'mobile':mobile,'captcha':captcha,'area_code':area_code}
+#     r=requests.post(testurl+'/api/ajax/user/login/captcha',json=payload)
+#     # r.encoding='utf-8'
+#     req=json.loads(r.text)
+#     token= jsonpath.jsonpath(req,'$..token')
+#     assert r.status_code == 200
+#     assert jsonpath.jsonpath(req,'$..message') == ['登录成功']
+#
+#
+# @pytest.mark.parametrize('mobile',['13111111111','15111111111'])
+# @pytest.mark.parametrize('captcha',['123456'])
+# @pytest.mark.parametrize('area_code',[86])
+# def test_pass_login(mobile,captcha,area_code):
+#     payload = {'mobile': mobile, 'captcha': captcha, 'area_code': area_code}
+#     r = requests.post(testurl + '/api/ajax/user/login/captcha', json=payload)
+#     # r.encoding='utf-8'
+#
+#
+# #if __name__ == '__main__':
+# #    test_pass_login()
+#
+# mobile={'13111111111', 15111111111, 18111111111, 0x2dfdc1c35, None}
+# captcha={'123456',12345,'1234567',None}
+# area_code={86,1,1472,None}
+# print(yaml.safe_dump_all([mobile, captcha,area_code], allow_unicode=True))
+#
+# with open(testyaml, 'w', encoding='utf-8') as f:
+#     yaml.safe_dump_all([mobile, captcha,area_code], stream=f, allow_unicode=True)

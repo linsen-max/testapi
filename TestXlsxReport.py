@@ -76,12 +76,12 @@ def init(worksheet):
     #往单元格填写相关数据
     worksheet.merge_range('A1:F1', '接口自动化测试报告', define_format_H1)
     worksheet.merge_range('A2:F2', '测试概括', define_format_H2)
-    worksheet.merge_range('A3:A6', '拉勾教育', get_format_center(workbook))
+    worksheet.merge_range('A3:A6', '金色财经', get_format_center(workbook))
     _write_center(worksheet, "B3", '项目名称', workbook)
     _write_center(worksheet, "B4", '接口版本', workbook)
     _write_center(worksheet, "B5", '脚本语言', workbook)
     _write_center(worksheet, "B6", '测试地址', workbook)
-    data = {"test_name": "拉勾教育项目接口", "test_version": "v1.0.0",
+    data = {"test_name": "金色财经项目接口", "test_version": "v1.0.0",
             "test_pl": "Python3", "test_net": testurl}
     _write_center(worksheet, "C3", data['test_name'], workbook)
     _write_center(worksheet, "C4", data['test_version'], workbook)
@@ -105,7 +105,7 @@ def init(worksheet):
     pie(workbook, worksheet)
 
 #生成用例详情sheet表的测试报告
-def test_detail(worksheet):
+def detail(worksheet):
     # 设置列宽高
     worksheet.set_column("A:A", 30)
     worksheet.set_column("B:B", 20)
@@ -158,7 +158,7 @@ def test_detail(worksheet):
         temp = temp - 1
 
 
-test_detail(worksheet2)
+detail(worksheet2)
 init(worksheet)
 workbook.close() #关闭excle对象，释放资源
 
@@ -192,7 +192,7 @@ try:
     #生成发送邮件的内容格式
     mail_content = msg % dict(yonglizongshu=str(len(TestReport)), tongguoyongil=str(hpassnum), shibaiyongli=str(
         len(TestReport) - hpassnum), tongguolv=str(round(hpassnum / len(TestReport), 2) * 100), test_net=testurl, timenow=timenow, neirong="【" + (now + 'report.xlsx') + "】")
-    mail_tiltle = '【拉勾教育接口自动化测试报告】' #设置发送邮件的标题
+    mail_tiltle = '【金色财经接口自动化测试报告】' #设置发送邮件的标题
     attachments = set([ReportPath]) #设置发送的附件，这里是我们生成的测试报告文件
     logger.info('正在发送测试报告邮件...')
     mymail.send_mail(mail_tiltle, mail_content,attachments)
@@ -206,12 +206,6 @@ else:
 
 
 
-
-
-
-
-# attachments = set(
-#     ['D:\\讲师资料\\炼数成金\\testapi\\testreport\\2018-08-11-21-44-25-TestReport.xls'])
 
 
 
