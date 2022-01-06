@@ -2,19 +2,19 @@ import json
 import jsonpath
 import xlrd
 import re
-import yaml
 from TestRequest import TestPostRequest
 from TestRequest import TestGetRequest
 from testdata.getpath import GetTestDataPath
-from testdata.getpath import GetYamlDataPath
 import pytest
 import requests
+from YamlHandle import read_yaml
+
 #testyaml=yaml.load(open(GetYamlDataPath()),Loader=yaml.FullLoader)
 testdata=xlrd.open_workbook(GetTestDataPath())
 testurl='http://static.www.t.ifboss.com'
 testapi='http://api.t.ifboss.com'
 
-rule = '(?<=//)\S+$'
+rule = r'(?<=//)\S+$'
 urlHost=re.search(rule, testurl, flags=0)
 apiHost=re.search(rule, testapi, flags=0)
 #Web一级导航栏设置
@@ -188,14 +188,20 @@ def get_activities():
 # @pytest.mark.parametrize('mobile', ['13111111111', 15111111111, 18111111111, 0x2dfdc1c35, None])
 # @pytest.mark.parametrize ('captcha',['123456',12345,'1234567',None])
 # @pytest.mark.parametrize('area_code',[86,1,1472,None])
-# def test_post_login(mobile,captcha,area_code):
-#     payload={'mobile':mobile,'captcha':captcha,'area_code':area_code}
-#     r=requests.post(testurl+'/api/ajax/user/login/captcha',json=payload)
-#     # r.encoding='utf-8'
-#     req=json.loads(r.text)
-#     token= jsonpath.jsonpath(req,'$..token')
-#     assert r.status_code == 200
-#     assert jsonpath.jsonpath(req,'$..message') == ['登录成功']
+@pytest.mark.parametrize("data",read_yaml('HomeTestData.yaml'))
+def test_post_login(data):
+    headers = {
+        'Host':'static.www.t.ifboss.com',
+        'Accept':'application/json, text/plain, */*'
+    }
+    r=requests.post(testurl+'/api/ajax/user/login/captcha',json=json.loads(data['body']),headers=headers)
+    # r.encoding='utf-8'
+    #print(r.text)
+    assert r.status_code == data['code']
+    req=json.loads(r.text)
+    #print(req)
+    token= jsonpath.jsonpath(req,'$..token')
+    assert data['response'] in jsonpath.jsonpath(req,'$..*')
 #
 #
 # @pytest.mark.parametrize('mobile',['13111111111','15111111111'])

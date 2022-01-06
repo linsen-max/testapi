@@ -6,9 +6,9 @@ def GetTestDataPath():
     ospath=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     return os.path.join(ospath,"testdata","TestData.xls")
 
-def GetYamlDataPath():
+def GetYamlDataPath(yamlname):
     ospath=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    return os.path.join(ospath,"testdata","TestData.yaml")
+    return os.path.join(ospath,"testdata",yamlname)
 
 def GetTestReport():
     now = time.strftime("%Y-%m-%d-%H-%M-%S-", time.localtime(time.time()))

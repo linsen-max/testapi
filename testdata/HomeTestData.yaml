@@ -1,0 +1,16 @@
+
+"body": '{
+          "mobile": "13111111111",
+          "captcha": "123456",
+          "area_code": 86
+          }'
+"response": '登录成功'
+"code": 200
+---
+"body": '{
+          "mobile": 13111111111,
+          "captcha": "123456",
+          "area_code": 86
+          }'
+"response": 'The mobile must be a string.'
+"code": 422
