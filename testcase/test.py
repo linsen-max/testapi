@@ -1,9 +1,27 @@
-import yaml
-from TestRequest import TestGetRequest
-from testdata.getpath import GetTestDataPath
-from testdata.getpath import GetYamlDataPath
-import pytest
-import requests
+
+
+import base64
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def home():
+    s={
+    "api": 'https://api.jinse.cn/',
+    "tj-api": "https://tj.jinse.cn/",
+    "h5-domian": "https://h5.jinse.com/",
+    "m-domain": "https://m.jinse.com/"
+}
+    print(type(s))
+    s_s = str(s)
+    print(type(s_s))
+    b_s = bytes((s_s),encoding='utf-8')
+    print(type(b_s))
+    a = base64.b64encode(b_s)
+    return {"data":a}
+
+home()
 # testyaml=yaml.load(open(GetYamlDataPath()),Loader=yaml.FullLoader)
 #
 #
@@ -16,10 +34,11 @@ import requests
 #     yaml.safe_dump_all([mobile, captcha,area_code], stream=f, allow_unicode=True)
 #
 
-def open1():
-    fo = open(GetYamlDataPath(),'r',encoding='utf-8')
-    res = yaml.load_all(fo,Loader=yaml.FullLoader)
-    for i in res:
-        print(i)
+# def open1():
+#     fo = open(GetYamlDataPath(),'r',encoding='utf-8')
+#     res = yaml.load_all(fo,Loader=yaml.FullLoader)
+#     for i in res:
+#         print(i)
+#
+# open1()
 
-open1()

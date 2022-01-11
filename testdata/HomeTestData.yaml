@@ -6,6 +6,7 @@
           }'
 "response": '登录成功'
 "code": 200
+"isneedlogin" : true
 ---
 "body": '{
           "mobile": 13111111111,

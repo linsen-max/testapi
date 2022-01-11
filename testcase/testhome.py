@@ -2,6 +2,7 @@ import json
 import jsonpath
 import xlrd
 import re
+from headers import *
 from TestRequest import TestPostRequest
 from TestRequest import TestGetRequest
 from testdata.getpath import GetTestDataPath
@@ -19,6 +20,7 @@ urlHost=re.search(rule, testurl, flags=0)
 apiHost=re.search(rule, testapi, flags=0)
 #Web一级导航栏设置
 def get_htmlsetting():
+
     try:
         table = testdata.sheets()[1]
         for i in range(3,5):
@@ -40,7 +42,7 @@ def get_htmlsetting():
     except Exception as e:
         print(e)
 
-#get_htmlsetting()
+# get_htmlsetting()
 
 #今日大事件
 def get_breaking_news():
@@ -165,10 +167,11 @@ def get_homeindustry():
                 "information_id":information_id,
                 "catelogue_key":catelogue_key
             }
-            header = {
-                'content-type': "application/json",
-                'Host':urlHost
-            }
+            header = header.web_get_headers()
+            #     {
+            #     'content-type': "application/json",
+            #     'Host':urlHost
+            # }
             testcaseid="2-6"
             testname="testhome"+testcaseid
             testhope=str(int(status))
@@ -189,11 +192,13 @@ def get_activities():
 # @pytest.mark.parametrize ('captcha',['123456',12345,'1234567',None])
 # @pytest.mark.parametrize('area_code',[86,1,1472,None])
 @pytest.mark.parametrize("data",read_yaml('HomeTestData.yaml'))
+@pytest.fixture
 def test_post_login(data):
-    headers = {
-        'Host':'static.www.t.ifboss.com',
-        'Accept':'application/json, text/plain, */*'
-    }
+    headers = test_header.post_web()
+    #     {
+    #     'Host':'static.www.t.ifboss.com',
+    #     'Accept':'application/json, text/plain, */*'
+    # }
     r=requests.post(testurl+'/api/ajax/user/login/captcha',json=json.loads(data['body']),headers=headers)
     # r.encoding='utf-8'
     #print(r.text)
