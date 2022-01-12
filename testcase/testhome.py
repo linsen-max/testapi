@@ -192,14 +192,10 @@ def get_activities():
 # @pytest.mark.parametrize ('captcha',['123456',12345,'1234567',None])
 # @pytest.mark.parametrize('area_code',[86,1,1472,None])
 @pytest.mark.parametrize("data",read_yaml('HomeTestData.yaml'))
-@pytest.fixture
 def test_post_login(data):
-    headers = test_header.post_web()
-    #     {
-    #     'Host':'static.www.t.ifboss.com',
-    #     'Accept':'application/json, text/plain, */*'
-    # }
-    r=requests.post(testurl+'/api/ajax/user/login/captcha',json=json.loads(data['body']),headers=headers)
+    headers = test_header().post_web(isneedlogin=data['isneedlogin'])
+    print(headers)
+    r=requests.post(test_header().url+'/api/ajax/user/login/captcha',json=json.loads(data['body']),headers=headers)
     # r.encoding='utf-8'
     #print(r.text)
     assert r.status_code == data['code']

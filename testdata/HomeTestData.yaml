@@ -6,12 +6,13 @@
           }'
 "response": '登录成功'
 "code": 200
-"isneedlogin" : true
+"isneedlogin" : false           #true
 ---
 "body": '{
-          "mobile": 13111111111,
+          "mobile": "13111111111",
           "captcha": "123456",
           "area_code": 86
           }'
 "response": 'The mobile must be a string.'
 "code": 422
+"isneedlogin": true

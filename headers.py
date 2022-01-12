@@ -1,11 +1,11 @@
-import pytest
+import json
 
-from testcase.testhome import test_post_login
+import pytest
+import jsonpath
+import requests
 from testdata.getpath import GetTestConfig
 import re
 import configparser
-
-
 
 class test_header:
     def __init__(self):
@@ -15,20 +15,47 @@ class test_header:
         self.url = config[header]['testurl']
         self.api = config[header]['testapi']
         rule = r'(?<=//)\S+$'
-        self.urlHost = re.search(rule, self.url, flags=0)
-        self.apiHost = re.search(rule, self.api, flags=0)
+        self.urlHost = (re.search(rule, self.url, flags=0).group())
+        self.apiHost = (re.search(rule, self.api, flags=0).group())
+        self.headers = {}
+        self.token = ''
 
-    @pytest.mark.usefixtures(test_post_login)
-    def post_web(self,isneedlogin,data_type = 'json'):
-        headers = {
+    def url(self):
+        return self.url
+    def api(self):
+        return self.api
+
+    def get_token(self):
+        if 'token' in self.headers:
+            pass
+        else:
+            payload = {
+                "mobile": "13111111111",
+                "captcha": "123456",
+                "area_code": 86
+            }
+            r = requests.post(url=self.url,json=payload,headers={'Host':self.urlHost,'Accept': 'application/json, text/plain, */*',
+            'Conteny-Type': 'application/json'})
+            print(r.text)
+            req = json.loads(r.text)
+            token = jsonpath.jsonpath(req, '$..token')
+            self.token = token
+
+    def post_web(self,isneedlogin = 'false'):
+        if isneedlogin:
+            self.get_token()
+            self.headers.update({'token':self.token})
+        else:
+            if 'token' in self.headers:
+                del self.headers['token']
+
+        headerdirt = {
             'Host': self.urlHost,
             'Accept': 'application/json, text/plain, */*',
             'Conteny-Type': 'application/json'
         }
-        if isneedlogin():
-            headers.append()
-        return headers
-
+        self.headers.update(headerdirt)
+        return self.headers
 
     def web_get_headers(self):
         pass
