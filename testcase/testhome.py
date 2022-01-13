@@ -5,10 +5,12 @@ import re
 from headers import *
 from TestRequest import TestPostRequest
 from TestRequest import TestGetRequest
+from testcase.GetGeneraltTest import GeneraltTest
 from testdata.getpath import GetTestDataPath
 import pytest
 import requests
 from YamlHandle import read_yaml
+
 
 #testyaml=yaml.load(open(GetYamlDataPath()),Loader=yaml.FullLoader)
 testdata=xlrd.open_workbook(GetTestDataPath())
@@ -23,31 +25,21 @@ apiHost=re.search(rule, testapi, flags=0)
 def test_get_htmlsetting():
     headers = test_header().get_web()
     r = requests.get(testurl+'/api/cmi-api/v1/htmljssetting/en_name?en_name=web-website-setting',headers = headers)
-    re = json.loads(r.text)
-    assert r.status_code == 200
-    assert jsonpath.jsonpath(re, '$..status_code') == [0]
+    GeneraltTest(r)
+    # re = json.loads(r.text)
+    # assert r.status_code == 200
+    # assert jsonpath.jsonpath(re, '$..status_code') == [0]
 
 # get_htmlsetting()
 
 #今日大事件
-def get_breaking_news():
-    try:
-        table = testdata.sheets()[1]
-        for i in range(17,18):
-            status=table.cell(i,0).value
-            qiwang = table.cell(i,1).value
-            hdata=""
-            header = {
-                'content-type': "application/json",
-                'Host':urlHost
-            }
-            testcaseid="2-2"
-            testname="testhome"+testcaseid
-            testhope=str(int(status))
-            fanhuitesthpe=qiwang
-            r=TestGetRequest(testurl+'/newapi/noah/v1/breaking-news',hdata,header,testcaseid,testname,testhope,fanhuitesthpe,"status_code")
-    except Exception as e:
-        print(e)
+def test_get_breaking_news():
+    headers = test_header().get_web()
+    r = requests.get(testurl + '/newapi/noah/v1/breaking-news', headers=headers)
+    re = json.loads(r.text)
+    assert r.status_code == 200
+    assert jsonpath.jsonpath(re, '$..status_code') == [0]
+
 
 #get_breaking_news()
 
