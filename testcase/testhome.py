@@ -19,28 +19,13 @@ rule = r'(?<=//)\S+$'
 urlHost=re.search(rule, testurl, flags=0)
 apiHost=re.search(rule, testapi, flags=0)
 #Web一级导航栏设置
-def get_htmlsetting():
-
-    try:
-        table = testdata.sheets()[1]
-        for i in range(3,5):
-            en_name=table.cell(i,0).value
-            status=table.cell(i,1).value
-            qiwang = table.cell(i,2).value
-            hdata= {
-                "en_name":str(en_name)
-            }
-            header = {
-                'content-type': "application/json",
-                'Host':urlHost
-            }
-            testcaseid="2-1"
-            testname="testhome"+testcaseid
-            testhope=str(int(status))
-            fanhuitesthpe=qiwang
-            r=TestGetRequest(testurl+'/api/cmi-api/v1/htmljssetting/en_name',hdata,header,testcaseid,testname,testhope,fanhuitesthpe,"status_code")
-    except Exception as e:
-        print(e)
+#@pytest.mark.parametrize('data',read_yaml('HomeTestData.yaml'))
+def test_get_htmlsetting():
+    headers = test_header().get_web()
+    r = requests.get(testurl+'/api/cmi-api/v1/htmljssetting/en_name?en_name=web-website-setting',headers = headers)
+    re = json.loads(r.text)
+    assert r.status_code == 200
+    assert jsonpath.jsonpath(re, '$..status_code') == [0]
 
 # get_htmlsetting()
 
@@ -196,13 +181,10 @@ def test_post_login(data):
     headers = test_header().post_web(isneedlogin=data['isneedlogin'])
     print(headers)
     r=requests.post(test_header().url+'/api/ajax/user/login/captcha',json=json.loads(data['body']),headers=headers)
-    # r.encoding='utf-8'
-    #print(r.text)
+    re = json.loads(r.text)
+    print(re)
     assert r.status_code == data['code']
-    req=json.loads(r.text)
-    #print(req)
-    token= jsonpath.jsonpath(req,'$..token')
-    assert data['response'] in jsonpath.jsonpath(req,'$..*')
+    assert data['response'] in jsonpath.jsonpath(re,'$..*')
 #
 #
 # @pytest.mark.parametrize('mobile',['13111111111','15111111111'])

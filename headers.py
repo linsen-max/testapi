@@ -25,6 +25,14 @@ class test_header:
     def api(self):
         return self.api
 
+    def headerdirt(self):
+        headerdirt = {
+            'Host': self.urlHost,
+            'Accept': 'application/json, text/plain, */*',
+            'Conteny-Type': 'application/json'
+        }
+        return headerdirt
+
     def get_token(self):
         if 'token' in self.headers:
             pass
@@ -34,28 +42,21 @@ class test_header:
                 "captcha": "123456",
                 "area_code": 86
             }
-            r = requests.post(url=self.url,json=payload,headers={'Host':self.urlHost,'Accept': 'application/json, text/plain, */*',
-            'Conteny-Type': 'application/json'})
-            print(r.text)
+            r = requests.post(url=self.url+'/api/ajax/user/login/captcha',json=payload,headers=self.headerdirt())
             req = json.loads(r.text)
             token = jsonpath.jsonpath(req, '$..token')
-            self.token = token
+            self.token = str(token)
+            self.headers.update({'token': self.token})
 
     def post_web(self,isneedlogin = 'false'):
         if isneedlogin:
             self.get_token()
-            self.headers.update({'token':self.token})
         else:
             if 'token' in self.headers:
                 del self.headers['token']
-
-        headerdirt = {
-            'Host': self.urlHost,
-            'Accept': 'application/json, text/plain, */*',
-            'Conteny-Type': 'application/json'
-        }
-        self.headers.update(headerdirt)
+        self.headers.update(self.headerdirt())
         return self.headers
 
-    def web_get_headers(self):
-        pass
+    def get_web(self):
+        self.headers.update(self.headerdirt())
+        return self.headers
