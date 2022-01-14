@@ -5091,3 +5091,99 @@ Thu,13 Jan 2022 19:41:52 factory.py[line:106] DEBUG Provider `faker.providers.ss
 Thu,13 Jan 2022 19:41:52 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
 Thu,13 Jan 2022 19:41:52 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:7890
 Thu,13 Jan 2022 19:41:52 connectionpool.py[line:452] DEBUG http://127.0.0.1:7890 "GET http://static.www.t.ifboss.com/api/cmi-api/v1/htmljssetting/en_name?en_name=web-website-setting HTTP/1.1" 200 None
+Fri,14 Jan 2022 15:02:17 log.py[line:23] DEBUG debug
+Fri,14 Jan 2022 15:02:17 log.py[line:24] INFO info
+Fri,14 Jan 2022 15:02:17 log.py[line:25] WARNING warning
+Fri,14 Jan 2022 15:02:17 log.py[line:26] ERROR error
+Fri,14 Jan 2022 15:02:17 log.py[line:27] CRITICAL critical
+Fri,14 Jan 2022 15:02:17 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.address`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `en_US`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.automotive`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:106] DEBUG Provider `faker.providers.automotive` has been localized to `en_US`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.bank`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:101] DEBUG Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+Fri,14 Jan 2022 15:02:17 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.barcode`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:106] DEBUG Provider `faker.providers.barcode` has been localized to `en_US`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.color`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:106] DEBUG Provider `faker.providers.color` has been localized to `en_US`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.company`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `en_US`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.credit_card`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:106] DEBUG Provider `faker.providers.credit_card` has been localized to `en_US`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.currency`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:106] DEBUG Provider `faker.providers.currency` has been localized to `en_US`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.date_time`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:106] DEBUG Provider `faker.providers.date_time` has been localized to `en_US`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Fri,14 Jan 2022 15:02:17 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.geo`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:106] DEBUG Provider `faker.providers.geo` has been localized to `en_US`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.internet`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `en_US`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Fri,14 Jan 2022 15:02:17 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.job`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `en_US`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.lorem`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `en_US`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.misc`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:106] DEBUG Provider `faker.providers.misc` has been localized to `en_US`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.person`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `en_US`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.phone_number`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `en_US`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Fri,14 Jan 2022 15:02:17 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Fri,14 Jan 2022 15:02:17 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.ssn`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `en_US`.
+Fri,14 Jan 2022 15:02:17 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Fri,14 Jan 2022 16:09:50 log.py[line:23] DEBUG debug
+Fri,14 Jan 2022 16:09:50 log.py[line:24] INFO info
+Fri,14 Jan 2022 16:09:50 log.py[line:25] WARNING warning
+Fri,14 Jan 2022 16:09:50 log.py[line:26] ERROR error
+Fri,14 Jan 2022 16:09:50 log.py[line:27] CRITICAL critical
+Fri,14 Jan 2022 16:09:50 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.address`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `en_US`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.automotive`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:106] DEBUG Provider `faker.providers.automotive` has been localized to `en_US`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.bank`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:101] DEBUG Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+Fri,14 Jan 2022 16:09:50 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.barcode`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:106] DEBUG Provider `faker.providers.barcode` has been localized to `en_US`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.color`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:106] DEBUG Provider `faker.providers.color` has been localized to `en_US`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.company`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `en_US`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.credit_card`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:106] DEBUG Provider `faker.providers.credit_card` has been localized to `en_US`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.currency`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:106] DEBUG Provider `faker.providers.currency` has been localized to `en_US`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.date_time`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:106] DEBUG Provider `faker.providers.date_time` has been localized to `en_US`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Fri,14 Jan 2022 16:09:50 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.geo`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:106] DEBUG Provider `faker.providers.geo` has been localized to `en_US`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.internet`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `en_US`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Fri,14 Jan 2022 16:09:50 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.job`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `en_US`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.lorem`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `en_US`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.misc`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:106] DEBUG Provider `faker.providers.misc` has been localized to `en_US`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.person`.
+Fri,14 Jan 2022 16:09:50 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `en_US`.
+Fri,14 Jan 2022 16:09:51 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.phone_number`.
+Fri,14 Jan 2022 16:09:51 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `en_US`.
+Fri,14 Jan 2022 16:09:51 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Fri,14 Jan 2022 16:09:51 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Fri,14 Jan 2022 16:09:51 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.ssn`.
+Fri,14 Jan 2022 16:09:51 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `en_US`.
+Fri,14 Jan 2022 16:09:51 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Fri,14 Jan 2022 16:09:51 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,14 Jan 2022 16:09:51 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "POST /api/ajax/user/login/captcha HTTP/1.1" 200 None
+Fri,14 Jan 2022 16:09:51 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,14 Jan 2022 16:09:51 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "POST /api/ajax/user/login/captcha HTTP/1.1" 422 None
+Fri,14 Jan 2022 16:09:51 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,14 Jan 2022 16:09:52 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "POST /api/ajax/user/login/captcha HTTP/1.1" 200 None
+Fri,14 Jan 2022 16:09:52 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): static.www.t.ifboss.com:80
+Fri,14 Jan 2022 16:09:52 connectionpool.py[line:452] DEBUG http://static.www.t.ifboss.com:80 "POST /api/ajax/user/login/captcha HTTP/1.1" 200 None
