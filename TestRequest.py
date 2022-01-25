@@ -1,16 +1,34 @@
 # -*- coding:utf-8 -*-
-
+from headers import *
 import json
 import requests
 from log import logger
-hlist=[]
+import pytest
+from YamlHandle import read_yaml
+from testcase.GetGeneraltTest import GeneraltTest
 
-header = {
-'content-type': "application/json;charset=UTF-8"
-}
+hlist=[]
+#
+# header = {
+# 'content-type': "application/json;charset=UTF-8"
+# }
 # header = {
 # 'content-type': "application/x-www-form-urlencoded"
 # }
+
+url = test_header().url
+header = test_header().get_web()
+
+@pytest.mark.parametrize('data',read_yaml())
+def Test_PostRequest(hurl,huri,hdata,htestcassid,htestcasename,htesthope):
+    headers = header
+    hr = requests.post(hurl+huri,data=hdata,headers=headers)
+    hresult = json.loads(hr.text)
+    hstatus = hresult['status']
+    if hstatus == htesthope and
+
+
+
 
 def TestPostRequest(hurl,hdata,headers,htestcassid,htestcasename,htesthope,fanhuitesthope):
     hr = requests.post(hurl, data=hdata, headers=headers)
