@@ -9,16 +9,16 @@
 "isneedlogin" : false    #true
 ---
 "body": '{
-          "mobile": 13111111111,
+          "mobile": "15111111111",
           "captcha": "123456",
           "area_code": 86
           }'
-"response": 'The mobile must be a string.'
-"code": 422
+"response":  '登录成功'                      #'The mobile must be a string.'
+"code": 200
 "isneedlogin": false
 ---
 "body": '{
-          "mobile": "13111111111",
+          "mobile": "16111111111",
           "captcha": 123456,
           "area_code": 86
           }'
@@ -27,7 +27,16 @@
 "isneedlogin": false
 ---
 "body": '{
-          "mobile": "13111111111",
+          "mobile": "17111111111",
+          "captcha": 123456,
+          "area_code": 86
+          }'
+"response": '登录成功'
+"code": 200
+"isneedlogin": false
+---
+"body": '{
+          "mobile": "18111111111",
           "captcha": 123456,
           "area_code": 86
           }'
